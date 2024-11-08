@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { computeExactDuration, countMonths, getMonthName } from '$lib/utils/helpers';
+	import { computeDuration, countMonths, getMonthName } from '$lib/utils/helpers';
 	import Chip from '../Chip/Chip.svelte';
 	import Card from '../Card/Card.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -19,7 +19,7 @@
 	// 	project.period.from,
 	// 	project.period.to ?? new Date(Date.now() + 1000 * 60 * 60 * 24)
 	// )}`;
-	$: period = computeExactDuration(project.period.from, project.period.to);
+	$: period = computeDuration(project.period.from, project.period.to);
 	$: from = `${getMonthName(project.period.from.getMonth())} ${project.period.from.getFullYear()}`;
 	$: to = project.period.to
 		? `${getMonthName(project.period.to.getMonth())} ${project.period.to.getFullYear()}`
