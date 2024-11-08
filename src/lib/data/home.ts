@@ -22,4 +22,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('csharp', 'python', 'js', 'css', 'html');
+export const skills = getSkills('csharp', 'python', 'sql', 'git', 'github', 'teamcity', 'octopus', 'js', 'css', 'html');
