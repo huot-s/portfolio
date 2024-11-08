@@ -76,7 +76,21 @@ const Assets = {
 	GitHub: a('github.svg'),
 	Teamcity: a('teamcity.svg'),
 	Octopus: a('octopus.svg'),
-	ShiftTechnology: a('shifttechnology.png')
+	ShiftTechnology: a('shift-technology.jpg'),
+	KleeGroup: a('klee-group.jpg'),
+	TnpConsultants: a('tnp-consultants.jpg'),
+	Natixis: a('natixis.jpg'),
+	Airbus: a('airbus.jpg'),
+	CentraleSupelec: a('centralesupelec.jpg'),
+	ImperialCollege: a('imperial-college.jpg'),
+	LyceeHoche: a('hoche.jpg'),
+	Jenkins: a('jenkins.png'),
+	TortoiseSVN: a('tortoise-svn.png'),
+	MantisBT: a('mantis-bt.png'),
+	SonarQube: a('sonarqube.png'),
+	Eclipse: a('eclipse.svg'),
+	Rider: a('rider.png'),
+	Oracle: a('oracle.png')
 };
 
 export default Assets;

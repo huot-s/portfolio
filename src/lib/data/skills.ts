@@ -52,11 +52,27 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'oracle',
+		color: 'red',
+		description: '',
+		logo: Assets.Oracle,
+		name: 'Oracle DB',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'python',
 		color: 'blue',
 		description: '',
 		logo: Assets.Python,
 		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'java',
+		color: 'orange',
+		description: '',
+		logo: Assets.Java,
+		name: 'Java',
 		category: 'pro-lang'
 	}),
 	defineSkill({
@@ -66,6 +82,38 @@ export const items = [
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'tortoise-svn',
+		color: 'blue',
+		description: '',
+		logo: Assets.TortoiseSVN,
+		name: 'Tortoise SVN',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'eclipse',
+		color: 'purple',
+		description: '',
+		logo: Assets.Eclipse,
+		name: 'Eclipse',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'rider',
+		color: 'blue',
+		description: '',
+		logo: Assets.Rider,
+		name: 'JetBrains Rider',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'aws',
+		color: 'orange',
+		description: '',
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'devops'
 	}),
 	defineSkill({
 		slug: 'github',
@@ -89,6 +137,30 @@ export const items = [
 		description: '',
 		logo: Assets.Teamcity,
 		name: 'Teamcity',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'jenkins',
+		color: 'blue',
+		description: '',
+		logo: Assets.Jenkins,
+		name: 'Jenkins',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'sonar-qube',
+		color: 'blue',
+		description: '',
+		logo: Assets.SonarQube,
+		name: 'Sonar Qube',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'mantis-bt',
+		color: 'green',
+		description: '',
+		logo: Assets.MantisBT,
+		name: 'Mantis Bug Tracker',
 		category: 'devops'
 	}),
 	defineSkill({
