@@ -76,6 +76,7 @@ const Assets = {
 	GitHub: a('github.svg'),
 	Teamcity: a('teamcity.svg'),
 	Octopus: a('octopus.svg'),
+	ShiftTechnology: a('shifttechnology.png')
 };
 
 export default Assets;

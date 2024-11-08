@@ -6,17 +6,34 @@ export const items: Array<Experience> = [
 	{
 		slug: 'ds-shift',
 		company: 'Shift Technology',
-		description: 'Senior Data and Software Engineer (0)',
-		contract: ContractType.FullTime,
-		type: 'Software Development',
-		location: 'Paris',
-		period: { from: new Date(), to: new Date() },
-		skills: getSkills('csharp', 'sql', 'teamcity', 'python'),
 		name: 'Senior Data and Software Engineer (1)',
+		contract: ContractType.FullTime,
+		location: 'Paris',
+		period: { from: new Date(2021) },
+
+		type: 'Software Development',		
+		skills: getSkills('csharp', 'sql', 'teamcity', 'python'),		
 		color: 'purple',
 		links: ['https://www.shift-technology.com'],
-		logo: Assets.Unknown,
-		shortDescription: 'description'
+		logo: Assets.ShiftTechnology,
+		shortDescription: 'description',
+		description: 'full description (to fill)',
+	},
+	{
+		slug: 'dev-klee',
+		company: 'Klee Group',
+		name: 'Software Engineer Consultant',
+		contract: ContractType.FullTime,
+		location: 'Le-Plessis-Robinson (92)',
+		period: { from: new Date(2020), to: new Date(2021) },
+
+		type: 'Software Development',		
+		skills: getSkills('csharp', 'sql', 'teamcity', 'python'),		
+		color: 'yellow',
+		links: ['https://www.kleegroup.com'],
+		logo: Assets.ShiftTechnology,
+		shortDescription: 'description',
+		description: 'full description (to fill)',
 	},
 ];
 
