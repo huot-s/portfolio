@@ -3,28 +3,30 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		degree: 'MSc Advanced Computing (with Distinction)',
+		description: 'test2',
+		location: 'London',
+		logo: Assets.ImperialCollege,
+		name: 'test',
+		organization: 'Imperial College London',
+		period: { from: new Date(2019, 9, 30), to: new Date(2020, 8, 30) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'imperial',
+		subjects: ['Machine Learning', 'Deep Learning', 'Natural Language Processing', 'Computer Vision', 'Finance', 'Blockchain', 'Python']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Master (Diplôme Ingénieur)',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Gif-sur-Yvette (91)',
+		logo: Assets.CentraleSupelec,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'CentraleSupélec',
+		period: { from: new Date(2016, 9, 1), to: new Date(2019, 8, 30) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'centralesupelec',
+		subjects: ['Signal Processing', 'Mathematics', 'Statistics', 'Software engineering', 'Electronics', 'Physics',
+			'Management', 'Accountability', 'Economics', 'Corporate law', 'Project management'
+		]
 	}
 ];
 
