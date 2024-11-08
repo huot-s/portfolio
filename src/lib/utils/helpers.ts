@@ -118,7 +118,7 @@ function doesQueryExistInItemOrAttributes(
 
 export function computeDuration(from: Date, to: Date = new Date()): string {
 	
-	const dateDiffInMonths = Math.max(0, (to.getFullYear() - from.getFullYear()) * 12 + to.getMonth() - from.getMonth());
+	const dateDiffInMonths = 1 + Math.max(0, (to.getFullYear() - from.getFullYear()) * 12 + to.getMonth() - from.getMonth());
 	const years = Math.floor(dateDiffInMonths / 12);
 	const months = dateDiffInMonths % 12;
 
@@ -130,10 +130,6 @@ export function computeDuration(from: Date, to: Date = new Date()): string {
 	
 	if (months >= 1) {
 		display.push(`${months} month${months >= 2 ? 's' : ''}`);
-	}
-
-	if (display.length === 0) {
-		return '1 month';
 	}
 
 	return display
