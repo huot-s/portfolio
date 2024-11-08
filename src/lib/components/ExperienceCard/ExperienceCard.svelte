@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Experience } from '$lib/types';
-	import { computeExactDuration, getMonthName, getTimeDiff } from '$lib/utils/helpers';
+	import { computeDuration, getMonthName, getTimeDiff } from '$lib/utils/helpers';
 	import Card from '../Card/Card.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -14,11 +14,9 @@
 	export let experience: Experience;
 
 	// const months = getTimeDiff(experience.period.from, experience.period.to);
-	const exactDuration = computeExactDuration(experience.period.from, experience.period.to);
+	const exactDuration = computeDuration(experience.period.from, experience.period.to);
 
-	const from = `${getMonthName(
-		experience.period.from.getMonth()
-	)} ${experience.period.from.getFullYear()}`;
+	const from = `${getMonthName(experience.period.from.getMonth())} ${experience.period.from.getFullYear()}`;
 	const to = experience.period.to
 		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
 		: 'Present';
