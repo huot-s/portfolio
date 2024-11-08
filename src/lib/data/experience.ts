@@ -54,7 +54,7 @@ export const items: Array<Experience> = [
 		name: 'Cybersecurity Architect and Expert',
 		contract: ContractType.FullTime,
 		location: 'Paris',
-		period: { from: new Date(2018, 9 - 1, 1), to: new Date(2019, 2 - 1, 30) },
+		period: { from: new Date(2018, 9 - 1, 1), to: new Date(2019, 2 - 1, 28) },
 		type: 'Cybersecurity',		
 		skills: getSkills(),		
 		color: '#ffffff00',
