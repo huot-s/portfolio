@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import { getAssetURL } from '$lib/data/assets';
 	import { title } from '@data/experience';
-	import { getTimeDiff } from '$lib/utils';
+	import { computeDuration } from '$lib/utils';
 
 	import type { Experience } from '$lib/types';
 
@@ -39,7 +39,7 @@
 						{data.experience.company} · {data.experience.location} · {data.experience.type}
 					</p>
 					<p class="font-300 text-0.9em text-[var(--tertiary-text)] m-y-2 text-center">
-						{getTimeDiff(data.experience.period.from, data.experience.period.to)}
+						{computeDuration(data.experience.period.from, data.experience.period.to)}
 					</p>
 					<div class="w-75%">
 						<CardDivider />

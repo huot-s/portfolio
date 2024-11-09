@@ -67,7 +67,7 @@ export const items: Array<Experience> = [
 		slug: 'intern-airbus',
 		company: 'Airbus Defence & Space',
 		name: 'Software Engineer Intern',
-		contract: ContractType.FullTime,
+		contract: ContractType.Internship,
 		location: 'Elancourt (78)',
 		period: { from: new Date(2017, 6 - 1, 1), to: new Date(2017, 7 - 1, 30) },
 		type: 'Software Development',		
