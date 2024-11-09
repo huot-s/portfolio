@@ -7,10 +7,10 @@ export const items: Array<Project> = [
 		slug: 'publication-game-theory',
 		color: '#5e95e3',
 		description: 'long description',
-		shortDescription: 'short description',
+		shortDescription: 'Pure Bayesian Nash Equilibrium on Bayesian Games with Multidimensional Vector Types and Linear Payoffs',
 		links: [{ to: 'https://arxiv.org/abs/2310.13992', label: 'Arxiv' }],
 		logo: Assets.Unknown,
-		name: 'Pure Bayesian Nash Equilibrium on Bayesian Games with Multidimensional Vector Types and Linear Payoffs',
+		name: 'Scientific paper publication',
 		period: {
 			from: new Date(2021, 9 - 1, 1), to: new Date(2023, 10 - 1, 21)
 		},

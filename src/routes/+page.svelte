@@ -8,6 +8,9 @@
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
+	import Assets from '../lib/data/assets';
+	import { getAssetURL } from '$lib/data/assets';
+
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -23,6 +26,7 @@
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
+	<img class="w-120px h-120px aspect-square" src={getAssetURL(Assets.AWS)} alt={item.name} />
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
