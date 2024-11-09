@@ -76,6 +76,14 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'cpp',
+		color: 'blue',
+		description: '',
+		logo: Assets.Cpp,
+		name: 'C++',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'git',
 		color: 'orange',
 		description: '',
@@ -105,6 +113,46 @@ export const items = [
 		description: '',
 		logo: Assets.Rider,
 		name: 'JetBrains Rider',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'powerbi',
+		color: 'yellow',
+		description: '',
+		logo: Assets.PowerBI,
+		name: 'Power BI',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'dataiku',
+		color: 'cyan',
+		description: '',
+		logo: Assets.Dataiku,
+		name: 'Dataiku',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'qualys',
+		color: 'red',
+		description: '',
+		logo: Assets.Qualys,
+		name: 'Qualys',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'zap',
+		color: 'blue',
+		description: '',
+		logo: Assets.Zap,
+		name: 'ZAP',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'checkmarx',
+		color: 'green',
+		description: '',
+		logo: Assets.Checkmarx,
+		name: 'Checkmarx',
 		category: 'devtools'
 	}),
 	defineSkill({

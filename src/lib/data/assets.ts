@@ -54,7 +54,12 @@ const Assets = {
 	SonarQube: a('sonarqube.png'),
 	Eclipse: a('eclipse.svg'),
 	Rider: a('rider.png'),
-	Oracle: a('oracle.png')
+	Oracle: a('oracle.png'),
+	PowerBI: a('powerbi.png'),
+	Dataiku: a('dataiku.png'),
+	Qualys: a('qualys.png'),
+	Zap: a('zap.png'),
+	Checkmarx: a('checkmarx.png'),
 };
 
 export default Assets;
