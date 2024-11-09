@@ -2,6 +2,12 @@ import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
+import shift from '../md/experiences/shift.md?raw';
+import klee from '../md/experiences/klee.md?raw';
+import tnp from '../md/experiences/tnp.md?raw';
+import natixis from '../md/experiences/natixis.md?raw';
+import airbus from '../md/experiences/airbus.md?raw';
+
 export const items: Array<Experience> = [
 	{
 		slug: 'ds-shift',
@@ -16,7 +22,7 @@ export const items: Array<Experience> = [
 		links: [{ to: 'https://www.shift-technology.com', label: 'Website', newTab: true}],
 		logo: Assets.ShiftTechnology,
 		shortDescription: 'description',
-		description: 'full description (to fill)',
+		description: shift,
 	},
 	{
 		slug: 'dev-klee',
@@ -31,7 +37,7 @@ export const items: Array<Experience> = [
 		links: [{ to: 'https://www.kleegroup.com', label: 'Website', newTab: true}],
 		logo: Assets.KleeGroup,
 		shortDescription: 'description',
-		description: 'full description (to fill)',
+		description: klee,
 	},
 	{
 		slug: 'consultant-tnp',
@@ -46,7 +52,7 @@ export const items: Array<Experience> = [
 		links: [{ to: 'https://www.tnpconsultants.com', label: 'Website', newTab: true}],
 		logo: Assets.TnpConsultants,
 		shortDescription: 'description',
-		description: 'full description (to fill)',
+		description: tnp,
 	},
 	{
 		slug: 'sec-natixis',
@@ -61,7 +67,7 @@ export const items: Array<Experience> = [
 		links: [{ to: 'https://natixis.groupebpce.com', label: 'Website', newTab: true}],
 		logo: Assets.Natixis,
 		shortDescription: 'description',
-		description: 'full description (to fill)',
+		description: natixis,
 	},
 	{
 		slug: 'intern-airbus',
@@ -76,7 +82,7 @@ export const items: Array<Experience> = [
 		links: [{ to: 'https://www.airbus.com', label: 'Website', newTab: true}],
 		logo: Assets.Airbus,
 		shortDescription: 'description',
-		description: 'full description (to fill)',
+		description: airbus,
 	},
 ];
 
