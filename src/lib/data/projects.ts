@@ -4,36 +4,18 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'publication-game-theory',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		description: 'long description',
+		shortDescription: 'short description',
+		links: [{ to: 'https://arxiv.org/abs/2310.13992', label: 'Arxiv' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Pure Bayesian Nash Equilibrium on Bayesian Games with Multidimensional Vector Types and Linear Payoffs',
 		period: {
-			from: new Date()
+			from: new Date(2021, 9 - 1, 1), to: new Date(2023, 10 - 1, 21)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
-	},
-	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
-		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('python'),
+		type: 'Publication',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -60,7 +42,8 @@ export const items: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}
+	},
+
 ];
 
 export const title = 'Projects';
