@@ -16,7 +16,7 @@
 	$: {
 		if (element) {
 			element.scroll({
-				left: index * 130,
+				left: index * 110,
 				behavior: 'smooth'
 			});
 		}
