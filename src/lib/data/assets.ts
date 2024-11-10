@@ -40,7 +40,7 @@ const Assets = {
 	GitHub: a('github.svg'),
 	Teamcity: a('teamcity.svg'),
 	Octopus: a('octopus.svg'),
-	ShiftTechnology: a('shift-technology.jpg'),
+	ShiftTechnology: a('shift-technology.png'),
 	KleeGroup: a('klee-group.jpg'),
 	TnpConsultants: a('tnp-consultants.jpg'),
 	Natixis: a('natixis.jpg'),
