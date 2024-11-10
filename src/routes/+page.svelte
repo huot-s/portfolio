@@ -26,8 +26,8 @@
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
-	<div class="box-content w-200px p-15px col-center">
-		<img class="w-170px h-170px aspect-square" src={getAssetURL(Assets.Profile)} />
+	<div class="box-content w-250px p-15px col-center">
+		<img class="w-220px h-220px aspect-square" src={getAssetURL(Assets.Profile)} />
 	</div>
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>

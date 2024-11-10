@@ -80,10 +80,10 @@
 		<UIcon icon="i-carbon-chevron-left" />
 	</button>
 
-	<div bind:this={element} class="row overflow-hidden box-content w-130px">
+	<div bind:this={element} class="row overflow-hidden box-content w-110px">
 		{#each items as item}
-			<div class="box-content w-130px p-15px col-center">
-				<img class="w-100px h-100px aspect-square" src={getAssetURL(item.logo)} alt={item.name} />
+			<div class="box-content w-110px p-15px col-center">
+				<img class="w-80px h-80px aspect-square" src={getAssetURL(item.logo)} alt={item.name} />
 				<span class="text-center m-t-20px">{item.name}</span>
 			</div>
 		{/each}
