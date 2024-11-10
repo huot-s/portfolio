@@ -60,6 +60,7 @@ const Assets = {
 	Qualys: a('qualys.png'),
 	Zap: a('zap.png'),
 	Checkmarx: a('checkmarx.png'),
+	Profile: `${base}/profile.jpg`,
 };
 
 export default Assets;
