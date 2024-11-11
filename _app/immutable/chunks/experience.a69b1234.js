@@ -1,13 +1,9 @@
-import{A as e}from"./index.0f543eb1.js";import{g as n}from"./skills.ed7a40f9.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
+import{A as e}from"./index.cf6d139c.js";import{g as n}from"./skills.29fe0486.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
 ---
 
 Shift Technology is a tech company that specializes in **providing artificial intelligence (AI) and machine learning solutions for the insurance industry**. Founded in 2014 and headquartered in Paris, France, Shift Technology focuses on helping insurers improve their claims processing and fraud detection capabilities.
 
 The company's flagship product is an **AI-driven platform that analyzes claims data to identify patterns and anomalies, enabling insurers to detect fraudulent activities** more effectively and streamline their claims management processes. By leveraging advanced algorithms and data analytics, Shift Technology aims to enhance operational efficiency, reduce costs, and improve the overall customer experience for insurance providers.
-
-Shift Technology's solutions are designed to integrate seamlessly with existing insurance systems, allowing companies to harness the power of AI without overhauling their current infrastructure. The company has garnered recognition for its innovative approach and has partnered with numerous insurance companies globally to enhance their capabilities in risk assessment and claims handling.
-
-With a commitment to transforming the insurance landscape through technology, Shift Technology continues to evolve its offerings, helping insurers adapt to the challenges of a rapidly changing market.
 
 <br><br>
 
@@ -51,11 +47,11 @@ TNP Consultants is a **consulting firm that specializes in providing strategic a
 
 Natixis is a French corporate and investment bank that is part of the Groupe BPCE, one of the largest banking groups in France. Established in 2006, Natixis provides a wide range of financial services, including investment banking, asset management, insurance, and financial services for corporate clients and institutional investors:
 
-1. **Corporate and Investment Banking**: Natixis offers advisory services, capital markets solutions, and financing options to corporations, financial institutions, and public sector entities. This includes mergers and acquisitions, debt and equity capital markets, and structured finance.
+1. **Corporate and Investment Banking**: Natixis offers advisory services, capital markets solutions, and financing options to corporations, financial institutions, and public sector entities.
 
-2. **Asset Management**: Through its asset management division, Natixis provides investment solutions across various asset classes, including equities, fixed income, and alternative investments. It serves both institutional and retail clients.
+2. **Asset Management**: Natixis provides investment solutions across various asset classes, including equities, fixed income, and alternative investments. It serves both institutional and retail clients.
 
-3. **Insurance**: Natixis also offers a range of insurance products, including life insurance, property and casualty insurance, and employee benefits solutions.
+3. **Insurance**: Natixis offers a range of insurance products, including life insurance, property and casualty insurance, and employee benefits solutions.
 
 4. **Sustainable Finance**: The company is committed to sustainable finance and responsible investment, integrating environmental, social, and governance (ESG) criteria into its business practices and investment strategies.
 
@@ -70,7 +66,7 @@ Natixis is a French corporate and investment bank that is part of the Groupe BPC
 - **Train developers** to integrate security best practices into the software development lifecycle`,r=`# The company
 ---
 
-Airbus Defence & Space is a division of Airbus Group, focused on providing advanced aerospace and defense solutions. Established in 2014 through the merger of Airbus Military, Airbus Space, and Cassidian, the division is headquartered in Netherlands, and operates globally. The company specializes in a wide range of products and services, including military aircraft, satellites, space exploration systems, and secure communications:
+Airbus Defence & Space is a division of Airbus Group, focused on providing advanced aerospace and defense solutions. Established in 2014 through the merger of Airbus Military, Airbus Space, and Cassidian, the division is headquartered in Netherlands, and operates globally. The company specializes in a wide range of products and services:
 
 1. **Military Aircraft**: Airbus Defence and Space designs and manufactures military transport and aerial refueling aircraft, such as the A400M Atlas and the A330 MRTT.
 2. **Satellites**: The company is a leading provider of satellite systems for telecommunications, Earth observation, and scientific missions, including the development of the Eurostar satellite platform.
