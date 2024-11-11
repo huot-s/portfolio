@@ -1,4 +1,4 @@
-import{A as e}from"./index.73e54e88.js";import{g as n}from"./skills.4589e18a.js";import{C as t}from"./types.1ebf2f37.js";const i=`# Key Missions
+import{A as e}from"./index.efdd3a68.js";import{g as n}from"./skills.41cbae67.js";import{C as t}from"./types.1ebf2f37.js";const i=`# Key Missions
 ---
 
 - Develop & optimize an insurance fraud detection Saas solution in C# and SQL.
