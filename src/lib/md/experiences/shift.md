@@ -9,6 +9,9 @@ Shift Technology's solutions are designed to integrate seamlessly with existing 
 
 With a commitment to transforming the insurance landscape through technology, Shift Technology continues to evolve its offerings, helping insurers adapt to the challenges of a rapidly changing market.
 
+
+
+
 # Key Missions
 ---
 

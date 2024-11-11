@@ -3,6 +3,9 @@
 
 TNP Consultants is a **consulting firm that specializes in providing strategic and operational support to businesses** across various industries. They typically focus on areas such as management consulting, technology solutions, and business transformation. TNP Consultants may offer services like project management, process optimization, IT consulting, and change management to help organizations improve efficiency, drive innovation, and achieve their goals.
 
+
+
+
 # Key Missions
 ---
 

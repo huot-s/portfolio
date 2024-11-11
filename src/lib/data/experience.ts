@@ -66,7 +66,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://natixis.groupebpce.com', label: 'Website', newTab: true}],
 		logo: Assets.Natixis,
-		shortDescription: 'Audit comapany applications and assess cloud projects within the cybersecurity team.',
+		shortDescription: 'Audit company applications and assess cloud projects within the cybersecurity team.',
 		description: natixis,
 	},
 	{
