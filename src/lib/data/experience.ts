@@ -21,7 +21,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://www.shift-technology.com', label: 'Website', newTab: true}],
 		logo: Assets.ShiftTechnology,
-		shortDescription: 'description',
+		shortDescription: 'Developing a fraud detection SaaS software for insurance industry.',
 		description: shift,
 	},
 	{
@@ -36,7 +36,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://www.kleegroup.com', label: 'Website', newTab: true}],
 		logo: Assets.KleeGroup,
-		shortDescription: 'description',
+		shortDescription: 'Software engineer consultant operating on OpenData and mobile app projects.',
 		description: klee,
 	},
 	{
@@ -51,7 +51,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://www.tnpconsultants.com', label: 'Website', newTab: true}],
 		logo: Assets.TnpConsultants,
-		shortDescription: 'description',
+		shortDescription: 'Data scientist junior consultant within a rapidly growing subsidiary (Luxembourg) of a consulting firm.',
 		description: tnp,
 	},
 	{
@@ -66,7 +66,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://natixis.groupebpce.com', label: 'Website', newTab: true}],
 		logo: Assets.Natixis,
-		shortDescription: 'description',
+		shortDescription: 'Audit comapany applications and assess cloud projects within the cybersecurity team.',
 		description: natixis,
 	},
 	{
