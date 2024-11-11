@@ -5,7 +5,7 @@ import type { Project } from '../types';
 export const items: Array<Project> = [
 	{
 		slug: 'publication-game-theory',
-		color: '#5e95e3',
+		color: '#ffffff00',
 		description: 'long description',
 		shortDescription: 'Pure Bayesian Nash Equilibrium on Bayesian Games with Multidimensional Vector Types and Linear Payoffs',
 		links: [{ to: 'https://arxiv.org/abs/2310.13992', label: 'Arxiv' }],
