@@ -30,8 +30,8 @@
 		</div>
 	{:else}
 		<div class="flex flex-col items-center overflow-x-hidden">
-			<Banner img={getAssetURL(data.experience.logo)}>
-				<div class="col-center p-y-20">
+			<Banner useDefaultDimensions={false}>
+				<div class="col-center p-y-10">
 					<div class="text-0.9em">
 						<MainTitle>{data.experience.name}</MainTitle>
 					</div>
