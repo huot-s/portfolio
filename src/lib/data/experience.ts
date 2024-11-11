@@ -81,7 +81,7 @@ export const items: Array<Experience> = [
 		color: '#ffffff00',
 		links: [{ to: 'https://www.airbus.com', label: 'Website', newTab: true}],
 		logo: Assets.Airbus,
-		shortDescription: 'description',
+		shortDescription: 'Internship in the Software Engineering team at Military Aircraft department.',
 		description: airbus,
 	},
 ];

@@ -9,7 +9,7 @@
 	<div class="resume">
 		{#if data}
 			<a href={data}>
-				<Chip size={'1.25em'}>Download resume (PDF)</Chip>
+				<Chip size={'1.25em'}>Download Resumé (PDF)</Chip>
 			</a>
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
