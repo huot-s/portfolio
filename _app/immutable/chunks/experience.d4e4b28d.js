@@ -1,4 +1,4 @@
-import{A as e}from"./index.57eadcd2.js";import{g as n}from"./skills.709aa436.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
+import{A as e}from"./index.0f543eb1.js";import{g as n}from"./skills.ed7a40f9.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
 ---
 
 Shift Technology is a tech company that specializes in **providing artificial intelligence (AI) and machine learning solutions for the insurance industry**. Founded in 2014 and headquartered in Paris, France, Shift Technology focuses on helping insurers improve their claims processing and fraud detection capabilities.
@@ -10,6 +10,7 @@ Shift Technology's solutions are designed to integrate seamlessly with existing 
 With a commitment to transforming the insurance landscape through technology, Shift Technology continues to evolve its offerings, helping insurers adapt to the challenges of a rapidly changing market.
 
 <br><br>
+
 # Key Missions
 ---
 
@@ -24,6 +25,7 @@ With a commitment to transforming the insurance landscape through technology, Sh
 Klee Group is a company that specializes in digital transformation and IT services, focusing on providing innovative solutions to enhance business processes and improve operational efficiency. Founded in France, Klee Group offers a range of services including **software development, cloud computing, data management, and cybersecurity**. The company is known for its expertise in integrating new technologies into existing systems, helping organizations adapt to the rapidly changing digital landscape.
 
 <br><br>
+
 # Key Missions
 ---
 
@@ -36,6 +38,7 @@ Klee Group is a company that specializes in digital transformation and IT servic
 TNP Consultants is a **consulting firm that specializes in providing strategic and operational support to businesses** across various industries. They typically focus on areas such as management consulting, technology solutions, and business transformation. TNP Consultants may offer services like project management, process optimization, IT consulting, and change management to help organizations improve efficiency, drive innovation, and achieve their goals.
 
 <br><br>
+
 # Key Missions
 ---
 
@@ -57,6 +60,7 @@ Natixis is a French corporate and investment bank that is part of the Groupe BPC
 4. **Sustainable Finance**: The company is committed to sustainable finance and responsible investment, integrating environmental, social, and governance (ESG) criteria into its business practices and investment strategies.
 
 <br><br>
+
 # Key Missions
 ---
 
@@ -74,6 +78,7 @@ Airbus Defence & Space is a division of Airbus Group, focused on providing advan
 4. **Defense Systems**: The division provides integrated defense solutions, including unmanned aerial vehicles (UAVs), surveillance systems, and cybersecurity services.
 
 <br><br>
+
 # Key Missions
 ---
 
