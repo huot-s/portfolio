@@ -12,6 +12,7 @@ Natixis is a French corporate and investment bank that is part of the Groupe BPC
 4. **Sustainable Finance**: The company is committed to sustainable finance and responsible investment, integrating environmental, social, and governance (ESG) criteria into its business practices and investment strategies.
 
 <br><br>
+
 # Key Missions
 ---
 
