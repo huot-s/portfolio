@@ -61,6 +61,9 @@ const Assets = {
 	Zap: a('zap.png'),
 	Checkmarx: a('checkmarx.png'),
 	Profile: `${base}/profile.jpg`,
+	Arxiv: a('arxiv.png'),
+	Ethereum: a('ethereum.svg'),
+	PDF: a('pdf.png'),
 };
 
 export default Assets;
