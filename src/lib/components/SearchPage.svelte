@@ -49,7 +49,7 @@
 </script>
 
 <CommonPage {title}>
-	<div class="w-100% row">
+	<div class="w-100% row" style="display: none">
 		<Input bind:this={searchInput} bind:value={search} placeholder={'Search...'} />
 	</div>
 	<div class="w-100% col flex-1">
