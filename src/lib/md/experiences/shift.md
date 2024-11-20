@@ -1,5 +1,4 @@
 # The company
----
 
 Shift Technology is a tech company that specializes in **providing artificial intelligence (AI) and machine learning solutions for the insurance industry**. Founded in 2014 and headquartered in Paris, France, Shift Technology focuses on helping insurers improve their claims processing and fraud detection capabilities.
 
@@ -8,7 +7,6 @@ The company's flagship product is an **AI-driven platform that analyzes claims d
 <br><br>
 
 # Key Missions
----
 
 - Develop & optimize an insurance fraud detection Saas solution in **C#** and **SQL**.
 - Collaborate within a **CI/CD development pipeline** under Git, GitHub, TeamCity, and Octopus.

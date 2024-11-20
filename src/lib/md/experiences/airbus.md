@@ -1,5 +1,4 @@
 # The company
----
 
 Airbus Defence & Space is a division of Airbus Group, focused on providing advanced aerospace and defense solutions. Established in 2014 through the merger of Airbus Military, Airbus Space, and Cassidian, the division is headquartered in Netherlands, and operates globally. The company specializes in a wide range of products and services:
 
@@ -11,7 +10,6 @@ Airbus Defence & Space is a division of Airbus Group, focused on providing advan
 <br><br>
 
 # Key Missions
----
 
 - Design and **develop flight simulation software in C++**, enhancing the accuracy of flight scenarios.
 - Analyze and compute **performance metrics on existing models through Python**.

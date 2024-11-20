@@ -1,5 +1,4 @@
 # The company
----
 
 Natixis is a French corporate and investment bank that is part of the Groupe BPCE, one of the largest banking groups in France. Established in 2006, Natixis provides a wide range of financial services, including investment banking, asset management, insurance, and financial services for corporate clients and institutional investors:
 
@@ -14,7 +13,6 @@ Natixis is a French corporate and investment bank that is part of the Groupe BPC
 <br><br>
 
 # Key Missions
----
 
 - **Audit Natixis applications for compliance with banking security standards** using Qualys, Checkmarx, and Zap.
 - Evaluate critical Cloud projects to address risks and enhance cloud security posture.
