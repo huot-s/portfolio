@@ -64,6 +64,15 @@ const Assets = {
 	Arxiv: a('arxiv.png'),
 	Ethereum: a('ethereum.svg'),
 	PDF: a('pdf.png'),
+	ProjectManagement: a('project_management.png'),
+	Entrepreneurship: a('entrepreneurship.png'),
+	Rfp: a('rfp.png'),
+	ClientFacing: a('client_facing.png'),
+	Management: a('management.png'),
+	Project: a('project.png'),
+	ScreenCryptoMobile: `${base}/screenshots/mobile_cryptomons.png`,
+	ScreenCryptoDesktop: `${base}/screenshots/desktop_screenshot.png`,
+
 };
 
 export default Assets;

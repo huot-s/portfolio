@@ -7,16 +7,10 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
 	defineSkillCategory({ name: 'Databases', slug: 'db' }),
-	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
-	defineSkillCategory({ name: 'Testing', slug: 'test' }),
 	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
-	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
-	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
 ] as const;
 
@@ -220,21 +214,45 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'css',
-		color: 'blue',
+		slug: 'project_management',
+		color: 'lemonchiffon',
 		description: '',
-		logo: Assets.CSS,
-		name: 'CSS',
-		category: 'markup-style'
+		logo: Assets.ProjectManagement,
+		name: 'Project Management',
+		category: 'soft'
 	}),
 	defineSkill({
-		slug: 'html',
-		color: 'orange',
+		slug: 'rfp',
+		color: 'lightblue',
 		description: '',
-		logo: Assets.HTML,
-		name: 'HTML',
-		category: 'markup-style'
-	})
+		logo: Assets.Rfp,
+		name: 'Request For Proposal',
+		category: 'soft'
+	}),
+	defineSkill({
+		slug: 'client_facing',
+		color: 'lightcoral',
+		description: '',
+		logo: Assets.ClientFacing,
+		name: 'Client Facing',
+		category: 'soft'
+	}),
+	defineSkill({
+		slug: 'management',
+		color: 'lightcyan',
+		description: '',
+		logo: Assets.Management,
+		name: 'Team Management',
+		category: 'soft'
+	}),
+	defineSkill({
+		slug: 'entrepreneurship',
+		color: 'lightgray',
+		description: '',
+		logo: Assets.Entrepreneurship,
+		name: 'Entrepreneurship',
+		category: 'soft'
+	}),
 ] as const;
 
 export const title = 'Skills';
