@@ -11,5 +11,5 @@ Airbus Defence & Space is a division of Airbus Group, focused on providing advan
 
 # Key Missions
 
-- Design and **develop flight simulation software in C++**, enhancing the accuracy of flight scenarios.
-- Analyze and compute **performance metrics on existing models through Python**.
+- Designed and **developed flight simulation software in C++**, enhancing the accuracy of flight scenarios.
+- Analyzed and computed **performance metrics on existing models through Python**.
