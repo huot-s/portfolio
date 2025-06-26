@@ -1,4 +1,4 @@
-import{A as e}from"./assets.018e2aed.js";import{g as n}from"./skills.e97855e6.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
+import{A as e}from"./assets.7d6d02fe.js";import{g as n}from"./skills.4bad39fe.js";import{C as i}from"./types.1ebf2f37.js";const a=`# The company
 
 Shift Technology is a tech company that specializes in **providing artificial intelligence (AI) and machine learning solutions for the insurance industry**. Founded in 2014 and headquartered in Paris, France, Shift Technology focuses on helping insurers improve their claims processing and fraud detection capabilities.
 
