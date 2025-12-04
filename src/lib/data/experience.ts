@@ -10,12 +10,27 @@ import airbus from '../md/experiences/airbus.md?raw';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'lead-pearltrees',
+		company: 'Pearltrees',
+		name: 'Lead IA Engineer',
+		contract: ContractType.FullTime,
+		location: 'Paris',
+		period: { from: new Date(2025, 4 - 1, 7) },
+		type: 'AI Engineering',		
+		skills: getSkills('python', 'git'),		
+		color: '#ffffff00',
+		links: [{ to: 'https://www.pearltrees.com', label: 'Website', newTab: true}],
+		logo: Assets.Pearltrees,
+		shortDescription: 'Manage an AI engineering team',
+		description: '',
+	},
+	{
 		slug: 'ds-shift',
 		company: 'Shift Technology',
 		name: 'Senior Data and Software Engineer',
 		contract: ContractType.FullTime,
 		location: 'Paris',
-		period: { from: new Date(2021, 12 - 1, 1) },
+		period: { from: new Date(2021, 12 - 1, 1), to: new Date(2025, 4 - 1, 7) },
 		type: 'Software and Data Engineering',		
 		skills: getSkills('csharp', 'sql', 'teamcity', 'python', 'git', 'github', 'octopus', 'rider', 'project_management', 'client_facing', 'management'),		
 		color: '#ffffff00',

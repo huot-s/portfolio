@@ -41,6 +41,7 @@ const Assets = {
 	Teamcity: a('teamcity.svg'),
 	Octopus: a('octopus.svg'),
 	ShiftTechnology: a('shift-technology.png'),
+	Pearltrees: a('pearltrees.png'),
 	KleeGroup: a('klee-group.jpg'),
 	TnpConsultants: a('tnp-consultants.jpg'),
 	Natixis: a('natixis.jpg'),
