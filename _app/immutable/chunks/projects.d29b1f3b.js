@@ -1,4 +1,4 @@
-import{A as e}from"./assets.7d6d02fe.js";import{g as t}from"./skills.4bad39fe.js";const o=`# Description
+import{A as e}from"./assets.a4ca3b41.js";import{g as t}from"./skills.e295dfd7.js";const o=`# Description
 
 - Develop a DApp (Decentralized WebApp) with **Vue.js** framework and *Material Design* UI template. Application is responsive (optimzed for both Desktop and Mobile screens) and interacts with a smart contract deployed on Ethereum Blockchain (testnet). It also supports wallets like Metamask.
 - Develop and optimize a secure [smart contract](https://github.com/huot-s/cryptomons/blob/master/cryptomons.sol) with Solidity and deploy it on Ethereum blockchain. `,i=`# Context
